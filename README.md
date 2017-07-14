@@ -27,6 +27,14 @@ This plugin currently collects the following statistics:
 * mongodb_mem_mapped
 * mongodb_mem_mapped_with_journal
 
+## Prerequisites
+
+This plugin requires the python-bson package.
+
+> ```bash
+> yum -y install python-bson or pip install bson
+> ```
+
 ## Installation
 
 * Copy mongodb.py to /usr/lib64/ganglia/python_modules
